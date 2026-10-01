@@ -1,10 +1,7 @@
-from hmac import new
+class Custom_var:
+    x=1
+    y=2
 
 
-print("hello")
-x = 10
-my_var = new My_custom_variable
-
-class My_custom_variable:
-    first_data = "message"
-    second_data = "1234"
+my_vector = Custom_var()
+print(my_vector.x)
